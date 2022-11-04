@@ -78,7 +78,7 @@ $thours = $left / 3600;
   <div id="wifi"><div>Wifi Credentials</div><div>CodeCamp</div><div>Welcome2Vasion</div></div>
   <div id="slides">
     <div class="slides-container">
-      <?php if ($thours >= 1): ?><img src="images/codecamp.png" data-time="15000" alt="">
+      <?php if ($thours >= 1): ?><img src="images/codecamp.png" data-time="20000" alt="">
 
       <?php
         if ($thours >= 5 and $thours <= 24) {
@@ -94,13 +94,13 @@ $thours = $left / 3600;
             $dtime = '';
             $class = '';
             if(preg_match('/(platinum)/', $image)):
-              $dtime = ' data-time="7000"';
+              $dtime = ' data-time="10000"';
               $class = ' class="platinum"';   
             elseif(preg_match('/(gold)/', $image)):
-              $dtime = ' data-time="5000"';
+              $dtime = ' data-time="7000"';
               $class = ' class="gold"';
             else:
-              $dtime = ' data-time="3000"';
+              $dtime = ' data-time="5000"';
             endif;
             
             $photos[] = '<img src="logos/'.$image.'" alt=""'.$dtime.$class.'>';
