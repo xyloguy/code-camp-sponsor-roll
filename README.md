@@ -17,13 +17,13 @@ cd code-camp-sponsor-roll
 ### Spin up the containers
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 or, if you don't want to see the logs
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### Visit your browser

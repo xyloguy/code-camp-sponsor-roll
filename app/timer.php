@@ -4,7 +4,7 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 
 date_default_timezone_set('America/Denver');
-$then = strtotime('2022-11-12 07:59:59');
+$then = strtotime('2023-11-18 07:59:59');
 $now = time();
 $left = ($then - $now);
 
@@ -81,10 +81,10 @@ $thours = $left / 3600;
       <?php if ($thours >= 1): ?><img src="images/codecamp.png" data-time="20000" alt="">
 
       <?php
-        if ($thours >= 5 and $thours <= 24) {
-          echo '<img src="images/judging-register.png" alt="" data-time="60000">';
-          echo "\n\t  ";
-        }
+//        if ($thours >= 5 and $thours <= 24) {
+//          echo '<img src="images/judging-register.png" alt="" data-time="60000">';
+//          echo "\n\t  ";
+//        }
 
         $photos = [];
 
