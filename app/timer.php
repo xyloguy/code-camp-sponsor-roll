@@ -81,10 +81,10 @@ $thours = $left / 3600;
       <?php if ($thours >= 1): ?><img src="images/codecamp.png" data-time="20000" alt="">
 
       <?php
-//        if ($thours >= 5 and $thours <= 24) {
-//          echo '<img src="images/judging-register.png" alt="" data-time="60000">';
-//          echo "\n\t  ";
-//        }
+        if ($thours >= 5 and $thours <= 24) {
+          echo '<img src="images/judging-register.png" alt="" data-time="60000">';
+          echo "\n\t  ";
+        }
 
         $photos = [];
 
